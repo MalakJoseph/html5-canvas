@@ -5,23 +5,6 @@ canvas.height = window.innerHeight;
 
 let c = canvas.getContext('2d');
 
-// // Any c.fillRect follows the style above it.
-// c.fillStyle = 'rgba(255, 0, 0, 0.5)';
-// c.fillRect(100, 100, 100, 100); //(x, y, width, height)
-// c.fillStyle = 'rgba(0, 255, 0, 0.5)';
-// c.fillRect(500, 200, 100, 100);
-// c.fillStyle = 'rgba(0, 0, 255, 0.5)';
-// c.fillRect(400, 400, 100, 100);
-// c.fillRect(200, 300, 100, 100);
-
-// // Line
-// c.beginPath();
-// c.moveTo(100, 400);
-// c.lineTo(300, 200);
-// c.lineTo(400, 380);
-// c.strokeStyle = "#fa34a3";
-// c.stroke(); // To start drawing
-
 let mouse = {
 	x: undefined,
 	y: undefined
